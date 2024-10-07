@@ -16,3 +16,5 @@ class DoubleConv(nn.Module):
 
     def forward(self, x):
         return self.conv(x)
+    
+
